@@ -1,0 +1,18 @@
+#include <iostream>
+#define _USE_MATH_DEFINES 
+#include "math.h"
+
+using namespace std;
+int main()
+{
+	int v, m, h;
+	double e, p;
+	printf("input e = v * v 2");
+    scanf("%i", &v);
+	printf("input a/n");
+	scanf("%i", &m);
+    printf("input a/n");
+	scanf("%i", &h);
+	e = m * v * v / 2;
+	printf("%lf",e);
+}
